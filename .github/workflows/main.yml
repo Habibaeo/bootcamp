@@ -36,8 +36,8 @@ jobs:
     - name: Creating build
       run: yarn build
      
-      name: installing surge
-      run: npm install --global surge 
+    - name: installing surge
+      run:   npm install --global surge 
 
-      name: Deploying surge
+    - name: Deploying surge
       run:  surge ./build http://bootcamp_practice_c2.surge.sh/ --token ${{secrets.Surge_Token}}
