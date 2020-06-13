@@ -9,7 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Class 2 Assignment</h1>
         <p>
-         Hello World from Habib Ur Rehman
+         Hello World from M Ibrahim and M Uzair
         </p>
         <a
           className="App-link"
